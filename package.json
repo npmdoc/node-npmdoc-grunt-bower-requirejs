@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"grunt-bower-requirejs",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "grunt-bower-requirejs",
+    "description": "api documentation for [grunt-bower-requirejs (v2.0.0)](https://github.com/yeoman/grunt-bower-requirejs) [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-bower-requirejs.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-bower-requirejs) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-bower-requirejs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-bower-requirejs)",
     "devDependencies": {
-        "grunt-bower-requirejs": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "grunt-bower-requirejs": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-grunt-bower-requirejs",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-grunt-bower-requirejs",
+    "keywords": [
+        "documentation",
+        "grunt-bower-requirejs"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_grunt_bower_requirejs.js",
+    "name": "npmdoc-grunt-bower-requirejs",
+    "nameAlias": "npmdoc_grunt_bower_requirejs",
+    "nameOriginal": "npmdoc-grunt-bower-requirejs",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-grunt-bower-requirejs"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
