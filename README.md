@@ -1,9 +1,14 @@
-# api documentation for  [grunt-bower-requirejs (v2.0.0)](https://github.com/yeoman/grunt-bower-requirejs)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-bower-requirejs.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-bower-requirejs) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-bower-requirejs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-bower-requirejs)
+# npmdoc-grunt-bower-requirejs
+
+#### api documentation for  [grunt-bower-requirejs (v2.0.0)](https://github.com/yeoman/grunt-bower-requirejs)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-bower-requirejs.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-bower-requirejs) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-bower-requirejs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-bower-requirejs)
+
 #### Automagically wire-up installed Bower components into your RequireJS config
 
-[![NPM](https://nodei.co/npm/grunt-bower-requirejs.png?downloads=true)](https://www.npmjs.com/package/grunt-bower-requirejs)
+[![NPM](https://nodei.co/npm/grunt-bower-requirejs.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-bower-requirejs)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-bower-requirejs/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-grunt-bower-requirejs_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-bower-requirejs/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-grunt-bower-requirejs/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-grunt-bower-requirejs/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-bower-requirejs/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-bower-requirejs/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-grunt-bower-requirejs/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Rob Dodson",
-        "email": "lets.email.rob@gmail.com",
         "url": "http://robdodson.me"
     },
     "bugs": {
@@ -69,32 +73,25 @@
     "license": "BSD",
     "maintainers": [
         {
-            "name": "sindresorhus",
-            "email": "sindresorhus@gmail.com"
+            "name": "sindresorhus"
         },
         {
-            "name": "paulirish",
-            "email": "paul.irish@gmail.com"
+            "name": "paulirish"
         },
         {
-            "name": "addyosmani",
-            "email": "addyosmani@gmail.com"
+            "name": "addyosmani"
         },
         {
-            "name": "passy",
-            "email": "phartig@rdrei.net"
+            "name": "passy"
         },
         {
-            "name": "robdodson",
-            "email": "lets.email.rob@gmail.com"
+            "name": "robdodson"
         },
         {
-            "name": "sboudrias",
-            "email": "admin@simonboudrias.com"
+            "name": "sboudrias"
         },
         {
-            "name": "eddiemonge",
-            "email": "eddie+npm@eddiemonge.com"
+            "name": "eddiemonge"
         }
     ],
     "name": "grunt-bower-requirejs",
@@ -103,7 +100,6 @@
         "grunt": ">=0.4.0",
         "bower": "^1.x"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/yeoman/grunt-bower-requirejs.git"
@@ -114,16 +110,6 @@
     "version": "2.0.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module grunt-bower-requirejs](#apidoc.module.grunt-bower-requirejs)
-
-
-
-# <a name="apidoc.module.grunt-bower-requirejs"></a>[module grunt-bower-requirejs](#apidoc.module.grunt-bower-requirejs)
 
 
 
