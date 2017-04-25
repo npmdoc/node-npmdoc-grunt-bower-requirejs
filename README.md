@@ -1,6 +1,6 @@
 # npmdoc-grunt-bower-requirejs
 
-#### api documentation for  [grunt-bower-requirejs (v2.0.0)](https://github.com/yeoman/grunt-bower-requirejs)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-bower-requirejs.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-bower-requirejs) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-bower-requirejs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-bower-requirejs)
+#### basic api documentation for  [grunt-bower-requirejs (v2.0.0)](https://github.com/yeoman/grunt-bower-requirejs)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-bower-requirejs.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-bower-requirejs) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-bower-requirejs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-bower-requirejs)
 
 #### Automagically wire-up installed Bower components into your RequireJS config
 
@@ -107,7 +107,8 @@
     "scripts": {
         "test": "grunt test"
     },
-    "version": "2.0.0"
+    "version": "2.0.0",
+    "bin": {}
 }
 ```
 

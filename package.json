@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "grunt-bower-requirejs",
-    "description": "#### api documentation for  [grunt-bower-requirejs (v2.0.0)](https://github.com/yeoman/grunt-bower-requirejs)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-bower-requirejs.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-bower-requirejs) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-bower-requirejs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-bower-requirejs)",
+    "description": "#### basic api documentation for  [grunt-bower-requirejs (v2.0.0)](https://github.com/yeoman/grunt-bower-requirejs)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-bower-requirejs.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-bower-requirejs) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-bower-requirejs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-bower-requirejs)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "grunt-bower-requirejs": "*",
